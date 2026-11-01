@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rehan Fazal | SOC Analyst Portfolio — Network Security &amp; Threat Detection</title>
+    <meta name="description" content="Rehan Fazal is an aspiring SOC Analyst building practical security solutions through network monitoring tools and interactive security awareness platforms. Explore projects in Python, Scapy, packet analysis, and phishing detection.">
+    <meta name="keywords" content="SOC Analyst portfolio, Rehan Fazal, cybersecurity projects, network security analyst, threat detection, packet analysis, Python Scapy, phishing awareness, security operations center">
+    <meta name="author" content="Rehan Fazal">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0e17">
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:title" content="Rehan Fazal | SOC Analyst Portfolio">
+    <meta property="og:description" content="Aspiring SOC Analyst passionate about transforming security theory into practical defense mechanisms.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Rehan Fazal | SOC Analyst Portfolio">
+    <meta name="twitter:description" content="Aspiring SOC Analyst focused on network security, threat detection, and security awareness.">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0e17'/%3E%3Cpath d='M50 14 82 28v24c0 18-13 30-32 34-19-4-32-16-32-34V28z' fill='none' stroke='%2300d4ff' stroke-width='6'/%3E%3Cpath d='M36 50l10 10 20-22' fill='none' stroke='%2300ff88' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+    <noscript>
+        <style>
+            .contact-form { display: none; }
+            #github-content { display: none; }
+        </style>
+    </noscript>
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <!-- Structured data for search engines -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rehan Fazal",
+        "jobTitle": "Aspiring SOC Analyst",
+        "description": "Aspiring SOC Analyst focused on network security, threat detection, and security awareness.",
+        "email": "kfazal.0000@gmail.com",
+        "knowsAbout": ["Network Security", "Threat Detection", "Packet Analysis", "Phishing Awareness", "Python", "Scapy", "Security Operations"],
+        "sameAs": [
+            "https://github.com/fazal-rehan01",
+            "https://www.linkedin.com/in/rehank03",
+            "https://tryhackme.com/p/kfazal.0000"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ==========================================
+         Navigation
+         ========================================== -->
+    <nav class="navbar" id="navbar" aria-label="Primary navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Rehan Fazal — home">
+                <i class="fas fa-shield-halved" aria-hidden="true"></i>
+                <span>My <span class="accent">Portfolio</span></span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#learning" class="nav-link">Learning</a></li>
+                <li><a href="#lab" class="nav-link">Home Lab</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="nav-menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main id="main" tabindex="-1">
+        <!-- ==========================================
+             1. Hero
+             ========================================== -->
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="hero-badge">
+                        <i class="fas fa-user-shield" aria-hidden="true"></i>
+                        <span>Aspiring SOC Analyst</span>
+                    </p>
+
+                    <h1 class="hero-title" id="hero-title">
+                        <span class="accent-text">Rehan Fazal</span><br>
+                        <span class="hero-title-sub">Network Security &amp; Threat Detection Enthusiast</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Aspiring SOC Analyst passionate about transforming security theory into practical defense
+                        mechanisms — building hands-on network monitoring tools and interactive security awareness
+                        platforms focused on threat detection and user education.
+                    </p>
+
+                    <ul class="hero-skills" aria-label="Core skills">
+                        <li class="skill-tag">Python</li>
+                        <li class="skill-tag">Java</li>
+                        <li class="skill-tag">Networking</li>
+                        <li class="skill-tag">Linux</li>
+                        <li class="skill-tag">Security Awareness</li>
+                    </ul>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-folder-open" aria-hidden="true"></i>
+                            View My Security Projects
+                        </a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download" aria-hidden="true"></i>
+                            Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <dl class="hero-stats">
+                        <div class="stat-item">
+                            <dt class="stat-label">Hands-On Projects</dt>
+                            <dd class="stat-number">2+</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt class="stat-label">Focus Areas</dt>
+                            <dd class="stat-number">5</dd>
+                        </div>
+                        <div class="stat-item">
+                            <dt class="stat-label">Self-Directed Learning</dt>
+                            <dd class="stat-number">100%</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="headshot-placeholder" role="img" aria-label="Headshot placeholder for Rehan Fazal">
+                        <div class="headshot-initials" aria-hidden="true">RF</div>
+                        <i class="fas fa-user-shield" aria-hidden="true"></i>
+                        <span>Rehan Fazal</span>
+                        <small>Add your photo at images/rehan-fazal.jpg</small>
+                    </div>
+
+                    <div class="cyber-grid" aria-hidden="true"></div>
+
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-dots" aria-hidden="true">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="terminal-title">rfazal@portfolio:~$</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line"><span class="terminal-prompt">$</span> whoami</div>
+                            <div class="terminal-line output">Aspiring SOC Analyst | Network Security &amp; Threat Detection</div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">$</span>
+                                <span id="terminal-type">cat projects/*</span><span class="terminal-cursor" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             2. About Me
+             ========================================== -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">01 — About</p>
+                    <h2 class="section-title" id="about-title">About <span class="accent-text">Me</span></h2>
+                    <p class="section-subtitle">My journey into cybersecurity and what drives me</p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text reveal">
+                        <p>
+                            I'm an aspiring SOC Analyst passionate about transforming security theory into practical
+                            defense mechanisms. My journey into cybersecurity began with a fascination for how networks
+                            communicate — and how threats can be detected at the packet level.
+                        </p>
+                        <p>
+                            My focus areas include <strong>network packet analysis</strong>, <strong>threat detection</strong>,
+                            and <strong>security awareness training</strong>. I believe effective cybersecurity requires
+                            both technical expertise and the ability to educate users about social engineering and
+                            phishing risks.
+                        </p>
+                        <p>
+                            My approach combines <strong>hands-on, project-based learning</strong> with theoretical
+                            knowledge. From building network packet sniffers with Python and Scapy to creating an
+                            interactive phishing awareness platform, I focus on security solutions that make a tangible
+                            difference.
+                        </p>
+                        <p>
+                            My career goal is to contribute to <strong>proactive threat hunting and incident response
+                            teams</strong>, where I can apply an analytical mindset and a continuous learning attitude to
+                            protect organizations from evolving cyber threats.
+                        </p>
+
+                        <div class="about-actions">
+                            <a href="https://github.com/fazal-rehan01" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                Explore My GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/rehank03" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                Connect on LinkedIn
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="about-highlights">
+                        <article class="highlight-card reveal">
+                            <div class="highlight-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+                            <div>
+                                <h3>Network Packet Analysis</h3>
+                                <p>Dissecting traffic across Ethernet, IP, TCP, UDP, and ICMP layers to understand protocol behavior and spot anomalies.</p>
+                            </div>
+                        </article>
+                        <article class="highlight-card reveal">
+                            <div class="highlight-icon"><i class="fas fa-magnifying-glass" aria-hidden="true"></i></div>
+                            <div>
+                                <h3>Threat Detection</h3>
+                                <p>Recognizing phishing and social engineering tactics, and translating attack patterns into practical detection opportunities.</p>
+                            </div>
+                        </article>
+                        <article class="highlight-card reveal">
+                            <div class="highlight-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+                            
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             3. Featured Projects
+             ========================================== -->
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">02 — Projects</p>
+                    <h2 class="section-title" id="projects-title">Featured <span class="accent-text">Projects</span></h2>
+                    <p class="section-subtitle">Hands-on security work demonstrating practical SOC analyst skills</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card reveal">
+                        <div class="project-media">
+                            <div class="project-number" aria-hidden="true">01</div>
+                            <div class="project-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+                            <p class="project-media-label">Network Security</p>
+                            <a href="https://github.com/fazal-rehan01/Code-Alpha-Network_sniffer" class="project-media-link" target="_blank" rel="noopener noreferrer">
+                                View repository <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Scapy</span>
+                                <span class="tag">Network Analysis</span>
+                                <span class="tag">CLI</span>
+                            </div>
+
+                            <h3 class="project-title">Network Packet Sniffer</h3>
+                            <p class="project-description">
+                                A real-time network packet analysis tool built with Python and Scapy that captures and
+                                decodes traffic across multiple protocol layers. The project demonstrates a fundamental
+                                understanding of network architecture and packet-level threat detection.
+                            </p>
+
+                            <div class="project-details">
+                                <div class="project-detail problem">
+                                    <h4><i class="fas fa-triangle-exclamation" aria-hidden="true"></i> Problem</h4>
+                                    <p>Limited visibility into raw network traffic makes packet-level threat detection and anomaly identification difficult.</p>
+                                </div>
+                                <div class="project-detail outcome">
+                                    <h4><i class="fas fa-circle-check" aria-hidden="true"></i> Outcome</h4>
+                                    <p>A multi-layer packet analyzer covering Ethernet MAC, IP, TCP, UDP, and ICMP, with a CLI for real-time traffic monitoring.</p>
+                                </div>
+                            </div>
+
+                            <div class="project-meta">
+                                <div class="meta-block">
+                                    <h4><i class="fas fa-code" aria-hidden="true"></i> Technical Implementation</h4>
+                                    <ul>
+                                        <li>Python 3.8+ with the Scapy library</li>
+                                        <li>Ethernet, IP, TCP, UDP, and ICMP packet dissection</li>
+                                        <li>Customizable CLI parameters (<code>-i</code> interface, <code>-c</code> packet count)</li>
+                                        <li>Loopback testing plus live internet traffic capture</li>
+                                        <li>Formatted real-time output of source/destination addresses, ports, and protocols</li>
+                                    </ul>
+                                </div>
+                                <div class="meta-block">
+                                    <h4><i class="fas fa-bullseye" aria-hidden="true"></i> SOC Analyst Relevance</h4>
+                                    <ul>
+                                        <li>Raw traffic analysis that underpins SIEM log analysis</li>
+                                        <li>Practical understanding of OSI model layers and protocol behavior</li>
+                                        <li>Foundation for custom detection rules and anomaly identification</li>
+                                        <li>Hands-on packet-level forensics experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="learning-outcomes">
+                                <h4><i class="fas fa-graduation-cap" aria-hidden="true"></i> Key Learning Outcomes</h4>
+                                <div class="outcome-chips">
+                                    <span class="chip">Protocol dissection</span>
+                                    <span class="chip">Real-time monitoring</span>
+                                    <span class="chip">Security CLI tooling</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/fazal-rehan01/Code-Alpha-Network_sniffer" class="btn-project" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                                </a>
+                                <a href="#contact" class="btn-project btn-outline">
+                                    <i class="fas fa-comments" aria-hidden="true"></i> Ask About This Project
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card reveal">
+                        <div class="project-media">
+                            <div class="project-number" aria-hidden="true">02</div>
+                            <div class="project-icon"><i class="fas fa-shield-virus" aria-hidden="true"></i></div>
+                            <p class="project-media-label">Security Awareness</p>
+                            <a href="https://github.com/fazal-rehan01/Code-Alpha-Phishing-awareness" class="project-media-link" target="_blank" rel="noopener noreferrer">
+                                View repository <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                            </a>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Security Awareness</span>
+                            </div>
+
+                            <h3 class="project-title">Phishing Awareness Training Platform</h3>
+                            <p class="project-description">
+                                An interactive, zero-dependency web-based training module that teaches users to recognize
+                                phishing attacks and social engineering tactics. It features four comprehensive learning
+                                modules with interactive elements and assessment capabilities.
+                            </p>
+
+                            <div class="project-details">
+                                <div class="project-detail problem">
+                                    <h4><i class="fas fa-triangle-exclamation" aria-hidden="true"></i> Problem</h4>
+                                    <p>Users often lack the practical knowledge needed to identify phishing messages and social engineering attempts.</p>
+                                </div>
+                                <div class="project-detail outcome">
+                                    <h4><i class="fas fa-circle-check" aria-hidden="true"></i> Outcome</h4>
+                                    <p>Four learning modules, 20+ assessment questions, XSS prevention, a strict Content Security Policy, and persisted progress tracking.</p>
+                                </div>
+                            </div>
+
+                            <div class="project-meta">
+                                <div class="meta-block">
+                                    <h4><i class="fas fa-code" aria-hidden="true"></i> Technical Implementation</h4>
+                                    <ul>
+                                        <li>Pure HTML, CSS, and JavaScript — no frameworks or dependencies</li>
+                                        <li>Modules covering email anatomy, fake website detection, social engineering psychology, and defensive best practices</li>
+                                        <li>Click-to-reveal hotspots, a URL breakdown analyzer, and scenario-based decisions</li>
+                                        <li>Assessment center with immediate feedback and score tracking</li>
+                                        <li>Progress persistence using safe localStorage practices</li>
+                                        <li>Security-first coding: input sanitization, XSS prevention, and strict CSP</li>
+                                    </ul>
+                                </div>
+                                <div class="meta-block">
+                                    <h4><i class="fas fa-bullseye" aria-hidden="true"></i> SOC Analyst Relevance</h4>
+                                    <ul>
+                                        <li>Understanding social engineering attack vectors for threat intelligence</li>
+                                        <li>Translating technical concepts into effective user-facing training</li>
+                                        <li>Secure coding practices essential for security-minded development</li>
+                                        <li>Attack pattern recognition and user behavior analysis</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="learning-outcomes">
+                                <h4><i class="fas fa-graduation-cap" aria-hidden="true"></i> Key Learning Outcomes</h4>
+                                <div class="outcome-chips">
+                                    <span class="chip">Social engineering ID</span>
+                                    <span class="chip">Secure web development</span>
+                                    <span class="chip">Program design</span>
+                                    <span class="chip">Behavioral change</span>
+                                </div>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/fazal-rehan01/Code-Alpha-Phishing-awareness" class="btn-project" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github" aria-hidden="true"></i> View on GitHub
+                                </a>
+                                <a href="#contact" class="btn-project btn-outline">
+                                    <i class="fas fa-comments" aria-hidden="true"></i> Ask About This Project
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-cta reveal">
+                    <p>More projects are in progress as I continue building practical security solutions.</p>
+                    <a href="https://github.com/fazal-rehan01" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        Explore All Projects on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             4. Skills Matrix
+             ========================================== -->
+        <section class="skills" id="skills" aria-labelledby="skills-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">03 — Capabilities</p>
+                    <h2 class="section-title" id="skills-title">Skills <span class="accent-text">Matrix</span></h2>
+                    <p class="section-subtitle">Technical and analytical competencies for SOC analyst roles</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-category reveal">
+                        <div class="skill-category-header">
+                            <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Python</span><span class="skill-level">Scapy, automation</span></div>
+                                <div class="skill-bar" role="img" aria-label="Python proficiency: proficient"><span style="--level: 82%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">JavaScript</span><span class="skill-level">Interactive web</span></div>
+                                <div class="skill-bar" role="img" aria-label="JavaScript proficiency: intermediate"><span style="--level: 66%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">HTML / CSS</span><span class="skill-level">Frontend</span></div>
+                                <div class="skill-bar" role="img" aria-label="HTML and CSS proficiency: proficient"><span style="--level: 76%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category reveal">
+                        <div class="skill-category-header">
+                            <i class="fas fa-network-wired" aria-hidden="true"></i>
+                            <h3>Network Analysis &amp; Tools</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Packet Capture</span><span class="skill-level">Scapy, Wireshark</span></div>
+                                <div class="skill-bar" role="img" aria-label="Packet capture proficiency: proficient"><span style="--level: 80%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Protocol Analysis</span><span class="skill-level">TCP / UDP / ICMP</span></div>
+                                <div class="skill-bar" role="img" aria-label="Protocol analysis proficiency: proficient"><span style="--level: 74%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Traffic Monitoring</span><span class="skill-level">Real-time</span></div>
+                                <div class="skill-bar" role="img" aria-label="Traffic monitoring proficiency: intermediate"><span style="--level: 70%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category reveal">
+                        <div class="skill-category-header">
+                            <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+                            <h3>Threat Detection</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Phishing Identification</span><span class="skill-level">Awareness platform</span></div>
+                                <div class="skill-bar" role="img" aria-label="Phishing identification proficiency: proficient"><span style="--level: 84%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Social Engineering</span><span class="skill-level">Recognition</span></div>
+                                <div class="skill-bar" role="img" aria-label="Social engineering recognition proficiency: proficient"><span style="--level: 78%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Anomaly Detection</span><span class="skill-level">Packet-level</span></div>
+                                <div class="skill-bar" role="img" aria-label="Anomaly detection proficiency: intermediate"><span style="--level: 62%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category reveal">
+                        <div class="skill-category-header">
+                            <i class="fas fa-shield-halved" aria-hidden="true"></i>
+                            <h3>Secure Development</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">XSS Prevention</span><span class="skill-level">Input sanitization</span></div>
+                                <div class="skill-bar" role="img" aria-label="XSS prevention proficiency: intermediate"><span style="--level: 68%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">CSP Implementation</span><span class="skill-level">Content Security Policy</span></div>
+                                <div class="skill-bar" role="img" aria-label="Content Security Policy proficiency: intermediate"><span style="--level: 64%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Safe Storage</span><span class="skill-level">localStorage practices</span></div>
+                                <div class="skill-bar" role="img" aria-label="Safe storage proficiency: intermediate"><span style="--level: 70%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category reveal">
+                        <div class="skill-category-header">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                            <h3>Analytical</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Log Analysis</span><span class="skill-level">Correlation</span></div>
+                                <div class="skill-bar" role="img" aria-label="Log analysis proficiency: intermediate"><span style="--level: 66%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Pattern Recognition</span><span class="skill-level">Network traffic</span></div>
+                                <div class="skill-bar" role="img" aria-label="Pattern recognition proficiency: intermediate"><span style="--level: 72%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Incident Documentation</span><span class="skill-level">Reporting</span></div>
+                                <div class="skill-bar" role="img" aria-label="Incident documentation proficiency: intermediate"><span style="--level: 70%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-category reveal">
+                        <div class="skill-category-header">
+                            <i class="fas fa-comments" aria-hidden="true"></i>
+                            <h3>Communication &amp; Soft Skills</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Security Awareness</span><span class="skill-level">Training delivery</span></div>
+                                <div class="skill-bar" role="img" aria-label="Security awareness training proficiency: proficient"><span style="--level: 84%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Technical Communication</span><span class="skill-level">Simplifying concepts</span></div>
+                                <div class="skill-bar" role="img" aria-label="Technical communication proficiency: proficient"><span style="--level: 80%"></span></div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-item-head"><span class="skill-name">Problem-Solving</span><span class="skill-level">Hands-on experimentation</span></div>
+                                <div class="skill-bar" role="img" aria-label="Problem solving proficiency: proficient"><span style="--level: 82%"></span></div>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             5. Current Learning Path
+             ========================================== -->
+        <section class="learning" id="learning" aria-labelledby="learning-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">04 — Growth</p>
+                    <h2 class="section-title" id="learning-title">Current <span class="accent-text">Learning Path</span></h2>
+                    <p class="section-subtitle">Ongoing study and a continuous growth mindset</p>
+                </div>
+
+                <div class="learning-grid">
+                    <article class="learning-item reveal">
+                        <div class="learning-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+                        <div class="learning-info">
+                            <h3>SIEM Platforms</h3>
+                            <p>Splunk, ELK Stack, and Azure Sentinel — log aggregation and analysis</p>
+                        </div>
+                        <div class="learning-progress">
+                            <div class="progress-bar" role="progressbar" aria-label="SIEM platforms progress" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-fill" style="--progress: 25%"></span>
+                            </div>
+                            <span class="progress-text">25%</span>
+                        </div>
+                    </article>
+
+                    <article class="learning-item reveal">
+                        <div class="learning-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+                        <div class="learning-info">
+                            <h3>MITRE ATT&amp;CK Framework</h3>
+                            <p>Tactics, techniques, and procedures for threat modeling</p>
+                        </div>
+                        <div class="learning-progress">
+                            <div class="progress-bar" role="progressbar" aria-label="MITRE ATT&CK progress" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-fill" style="--progress: 30%"></span>
+                            </div>
+                            <span class="progress-text">30%</span>
+                        </div>
+                    </article>
+
+                    <article class="learning-item reveal">
+                        <div class="learning-icon"><i class="fas fa-fire-extinguisher" aria-hidden="true"></i></div>
+                        <div class="learning-info">
+                            <h3>Incident Response</h3>
+                            <p>Procedures, playbooks, and response methodologies</p>
+                        </div>
+                        <div class="learning-progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Incident response progress" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-fill" style="--progress: 20%"></span>
+                            </div>
+                            <span class="progress-text">20%</span>
+                        </div>
+                    </article>
+
+                    <article class="learning-item reveal">
+                        <div class="learning-icon"><i class="fas fa-vial" aria-hidden="true"></i></div>
+                        <div class="learning-info">
+                            <h3>Threat Intelligence</h3>
+                            <p>Platforms, feeds, and IOC analysis</p>
+                        </div>
+                        <div class="learning-progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Threat intelligence progress" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-fill" style="--progress: 15%"></span>
+                            </div>
+                            <span class="progress-text">15%</span>
+                        </div>
+                    </article>
+
+                    <article class="learning-item reveal">
+                        <div class="learning-icon"><i class="fas fa-bug" aria-hidden="true"></i></div>
+                        <div class="learning-info">
+                            <h3>Vulnerability Assessment</h3>
+                            <p>Methodologies and scanning techniques</p>
+                        </div>
+                        <div class="learning-progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Vulnerability assessment progress" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-fill" style="--progress: 10%"></span>
+                            </div>
+                            <span class="progress-text">10%</span>
+                        </div>
+                    </article>
+
+                    <article class="learning-item reveal">
+                        <div class="learning-icon"><i class="fas fa-terminal" aria-hidden="true"></i></div>
+                        <div class="learning-info">
+                            <h3>Linux System Administration</h3>
+                            <p>Administration fundamentals for security operations</p>
+                        </div>
+                        <div class="learning-progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Linux system administration progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                <span class="progress-fill" style="--progress: 40%"></span>
+                            </div>
+                            <span class="progress-text">40%</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             6. Home Lab Environment
+             ========================================== -->
+        <section class="lab" id="lab" aria-labelledby="lab-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">05 — Practice</p>
+                    <h2 class="section-title" id="lab-title">Home <span class="accent-text">Lab Environment</span></h2>
+                    <p class="section-subtitle">Planned and active lab setup for hands-on security practice</p>
+                </div>
+
+                <div class="lab-content">
+                    <div class="lab-panel lab-vms reveal">
+                        <h3><i class="fas fa-desktop" aria-hidden="true"></i> Virtual Machines</h3>
+                        <ul class="vm-list">
+                            <li class="vm-item">
+                                <span class="vm-status planned" aria-hidden="true"></span>
+                                <span class="vm-name">Kali Linux</span>
+                                <span class="vm-role">Penetration Testing</span>
+                            </li>
+                            <li class="vm-item">
+                                <span class="vm-status planned" aria-hidden="true"></span>
+                                <span class="vm-name">Windows 10</span>
+                                <span class="vm-role">Endpoint Monitoring</span>
+                            </li>
+                            <li class="vm-item">
+                                <span class="vm-status planned" aria-hidden="true"></span>
+                                <span class="vm-name">Ubuntu Server</span>
+                                <span class="vm-role">SIEM Log Collection</span>
+                            </li>
+                            <li class="vm-item">
+                                <span class="vm-status planned" aria-hidden="true"></span>
+                                <span class="vm-name">Metasploitable</span>
+                                <span class="vm-role">Vulnerable Target</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="lab-panel lab-tools reveal">
+                        <h3><i class="fas fa-tools" aria-hidden="true"></i> Security Tools <span class="panel-note">(Planned)</span></h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fas fa-sitemap" aria-hidden="true"></i>
+                                <span>Wireshark</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-shield-virus" aria-hidden="true"></i>
+                                <span>Suricata IDS</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-database" aria-hidden="true"></i>
+                                <span>Wazuh SIEM</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-bug" aria-hidden="true"></i>
+                                <span>Malware Sandbox</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lab-topology reveal">
+                    <h3><i class="fas fa-diagram-project" aria-hidden="true"></i> Planned Network Topology</h3>
+                    <div class="topology-diagram">
+                        <div class="topology-node internet">
+                            <i class="fas fa-globe" aria-hidden="true"></i>
+                            <span>Internet</span>
+                        </div>
+                        <span class="topology-link" aria-hidden="true"></span>
+                        <div class="topology-node switch">
+                            <i class="fas fa-sitemap" aria-hidden="true"></i>
+                            <span>Management Switch</span>
+                        </div>
+                        <span class="topology-link" aria-hidden="true"></span>
+                        <div class="topology-branch">
+                            <div class="topology-node siem">
+                                <i class="fas fa-database" aria-hidden="true"></i>
+                                <span>SIEM Server</span>
+                            </div>
+                            <div class="topology-node client">
+                                <i class="fas fa-desktop" aria-hidden="true"></i>
+                                <span>Windows Client</span>
+                            </div>
+                            <div class="topology-node kali">
+                                <i class="fas fa-laptop-code" aria-hidden="true"></i>
+                                <span>Kali Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="lab-note reveal">
+                    <i class="fas fa-circle-info" aria-hidden="true"></i>
+                    The lab environment is in its planning phase. Virtual machines and tools will be deployed as my learning progresses.
+                </p>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             7. Certifications & Training Roadmap
+             ========================================== -->
+        <section class="certifications" id="certifications" aria-labelledby="certifications-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">06 — Credentials</p>
+                    <h2 class="section-title" id="certifications-title">Certifications &amp; <span class="accent-text">Training</span></h2>
+                    <p class="section-subtitle">Current status and target certifications</p>
+                </div>
+
+                <div class="certifications-grid">
+                    <article class="cert-card in-progress reveal">
+                        <div class="cert-icon"><i class="fas fa-certificate" aria-hidden="true"></i></div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">TryHackMe — Pre-Security</h3>
+                            <span class="cert-issuer">TryHackMe</span>
+                            <span class="cert-date">In progress</span>
+                        </div>
+                        <span class="cert-badge">In Progress</span>
+                    </article>
+
+                    <article class="cert-card planned reveal">
+                        <div class="cert-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">CompTIA Security+</h3>
+                            <span class="cert-issuer">CompTIA</span>
+                            <span class="cert-date">Future target</span>
+                        </div>
+                        <span class="cert-badge">Planned</span>
+                    </article>
+
+                    <article class="cert-card planned reveal">
+                        <div class="cert-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">CompTIA Network+</h3>
+                            <span class="cert-issuer">CompTIA</span>
+                            <span class="cert-date">Future target</span>
+                        </div>
+                        <span class="cert-badge">Planned</span>
+                    </article>
+
+                    <article class="cert-card planned reveal">
+                        <div class="cert-icon"><i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i></div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Splunk Core Certified User</h3>
+                            <span class="cert-issuer">Splunk</span>
+                            <span class="cert-date">Future target</span>
+                        </div>
+                        <span class="cert-badge">Planned</span>
+                    </article>
+
+                    <article class="cert-card planned reveal">
+                        <div class="cert-icon"><i class="fas fa-user-secret" aria-hidden="true"></i></div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">SOC Level 1</h3>
+                            <span class="cert-issuer">TryHackMe</span>
+                            <span class="cert-date">Future target</span>
+                        </div>
+                        <span class="cert-badge">Planned</span>
+                    </article>
+
+                    <article class="cert-card note-card reveal">
+                        <div class="cert-icon"><i class="fas fa-circle-info" aria-hidden="true"></i></div>
+                        <div class="cert-info">
+                            <h3 class="cert-title">Current Status</h3>
+                            <span class="cert-issuer">Building foundational projects</span>
+                            <span class="cert-date">Network &amp; application security</span>
+                        </div>
+                        <span class="cert-badge active">Active</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             8. Blog / Thought Leadership
+             ========================================== -->
+        <section class="blog" id="blog" aria-labelledby="blog-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">07 — Writing</p>
+                    <h2 class="section-title" id="blog-title">Blog &amp; <span class="accent-text">Thought Leadership</span></h2>
+                    <p class="section-subtitle">Upcoming write-ups on security concepts, project lessons, and industry insights</p>
+                </div>
+
+                <div class="blog-grid">
+                    <article class="blog-card reveal">
+                        <div class="blog-image"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Network Analysis</span>
+                                <span class="blog-date">Coming soon</span>
+                            </div>
+                            <h3 class="blog-title">Understanding Network Packets: A Beginner's Guide to Traffic Analysis</h3>
+                            <p class="blog-excerpt">A deep dive into packet structure, protocol layers, and how to spot anomalies in network traffic.</p>
+                            <span class="blog-link muted">Draft in progress</span>
+                        </div>
+                    </article>
+
+                    <article class="blog-card reveal">
+                        <div class="blog-image"><i class="fas fa-shield-virus" aria-hidden="true"></i></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Security Awareness</span>
+                                <span class="blog-date">Coming soon</span>
+                            </div>
+                            <h3 class="blog-title">Building Your First Phishing Awareness Program: Lessons Learned</h3>
+                            <p class="blog-excerpt">Key insights from developing an interactive phishing training platform and user education strategies.</p>
+                            <span class="blog-link muted">Draft in progress</span>
+                        </div>
+                    </article>
+
+                    <article class="blog-card reveal">
+                        <div class="blog-image"><i class="fas fa-code" aria-hidden="true"></i></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Career Development</span>
+                                <span class="blog-date">Coming soon</span>
+                            </div>
+                            <h3 class="blog-title">Why Every SOC Analyst Should Know How to Code</h3>
+                            <p class="blog-excerpt">The value of programming skills in security operations, from automation to custom detection rules.</p>
+                            <span class="blog-link muted">Draft in progress</span>
+                        </div>
+                    </article>
+
+                    <article class="blog-card reveal">
+                        <div class="blog-image"><i class="fas fa-route" aria-hidden="true"></i></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Learning Journey</span>
+                                <span class="blog-date">Coming soon</span>
+                            </div>
+                            <h3 class="blog-title">From Packet Sniffer to SIEM: My Learning Journey</h3>
+                            <p class="blog-excerpt">How hands-on projects connect to real security operations, and what I'm learning along the way.</p>
+                            <span class="blog-link muted">Draft in progress</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             9. Latest GitHub Activity
+             ========================================== -->
+        <section class="github-section" id="github" aria-labelledby="github-title">
+            <div class="section-container">
+                <div class="github-panel reveal">
+                    <div class="github-panel-header">
+                        <div>
+                            <p class="section-eyebrow">08 — Open Source</p>
+                            <h2 class="section-title" id="github-title">Latest from <span class="accent-text">GitHub</span></h2>
+                            <p class="section-subtitle">Recently updated public repositories, pulled live from the GitHub API</p>
+                        </div>
+                        <a href="https://github.com/fazal-rehan01" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            Follow on GitHub
+                        </a>
+                    </div>
+
+                    <div class="github-widget-content" id="github-content" aria-live="polite" aria-busy="true">
+                        <div class="github-loading">
+                            <i class="fas fa-circle-notch fa-spin" aria-hidden="true"></i>
+                            Loading repositories…
+                        </div>
+                    </div>
+
+                    <noscript>
+                        <div class="github-loading">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            JavaScript is disabled.
+                            <a href="https://github.com/fazal-rehan01" target="_blank" rel="noopener noreferrer">View repositories on GitHub</a>.
+                        </div>
+                    </noscript>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             10. Contact
+             ========================================== -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <p class="section-eyebrow">09 — Contact</p>
+                    <h2 class="section-title" id="contact-title">Get In <span class="accent-text">Touch</span></h2>
+                    <p class="section-subtitle">Open to new opportunities in Security Operations Center roles</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info reveal">
+                        <a class="info-item" href="mailto:kfazal.0000@gmail.com">
+                            <span class="info-icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                            <span class="info-text">
+                                <span class="info-label">Email</span>
+                                <span class="info-value">kfazal.0000@gmail.com</span>
+                            </span>
+                        </a>
+
+                        <a class="info-item" href="https://www.linkedin.com/in/rehank03" target="_blank" rel="noopener noreferrer">
+                            <span class="info-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></span>
+                            <span class="info-text">
+                                <span class="info-label">LinkedIn</span>
+                                <span class="info-value">linkedin.com/in/rehank03</span>
+                            </span>
+                        </a>
+
+                        <a class="info-item" href="https://github.com/fazal-rehan01" target="_blank" rel="noopener noreferrer">
+                            <span class="info-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+                            <span class="info-text">
+                                <span class="info-label">GitHub</span>
+                                <span class="info-value">github.com/fazal-rehan01</span>
+                            </span>
+                        </a>
+
+                        <a class="info-item" href="https://tryhackme.com/p/kfazal.0000" target="_blank" rel="noopener noreferrer">
+                            <span class="info-icon"><i class="fas fa-user-secret" aria-hidden="true"></i></span>
+                            <span class="info-text">
+                                <span class="info-label">TryHackMe</span>
+                                <span class="info-value">tryhackme.com/p/kfazal.0000</span>
+                            </span>
+                        </a>
+
+                        <div class="contact-note">
+                            <i class="fas fa-globe" aria-hidden="true"></i>
+                            <p>Open to remote and on-site SOC opportunities</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container reveal">
+                        <noscript>
+                            <p class="noscript-note">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                JavaScript is disabled, so the form cannot open your email app.
+                                Please email <a href="mailto:kfazal.0000@gmail.com">kfazal.0000@gmail.com</a> directly.
+                            </p>
+                        </noscript>
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Job opportunity, project question, or collaboration" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or what you'd like to discuss…" required></textarea>
+                            </div>
+
+                            <div class="form-group honeypot" aria-hidden="true">
+                                <label for="honeypot">Leave this field empty</label>
+                                <input type="text" id="honeypot" name="honeypot" tabindex="-1" autocomplete="off">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+
+                            <p class="form-note">
+                                <i class="fas fa-envelope-open-text" aria-hidden="true"></i>
+                                This form opens your email app — no data is stored on this site.
+                            </p>
+                        </form>
+                        <div id="form-message" class="form-message" role="status" aria-live="polite"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==========================================
+         Footer
+         ========================================== -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo" aria-label="Rehan Fazal — back to top">
+                        <i class="fas fa-shield-halved" aria-hidden="true"></i>
+                        <span>RF<span class="accent">Sec</span></span>
+                    </a>
+                    <p class="footer-text">
+                        Building practical security solutions through network monitoring, threat detection,
+                        and user education.
+                    </p>
+                </div>
+
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div class="footer-social">
+                    <a href="https://github.com/fazal-rehan01" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rehank03" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:kfazal.0000@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://tryhackme.com/p/kfazal.0000" target="_blank" rel="noopener noreferrer" aria-label="TryHackMe">
+                        <i class="fas fa-user-secret" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> Rehan Fazal. All rights reserved.</p>
+                <a href="#hero" class="back-to-top">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
